@@ -1,0 +1,50 @@
+
+// @import url("./common/format.less"); 
+
+html{font-size:14px; height: 100%; width: 100%;}
+body { height: 100%; width: 100%; padding: 0;margin: 0; .fc(@cbl3); font: 14px/150%  "Lucida Grande", Lucida Sans Unicode, Hiragino Sans GB, WenQuanYi Micro Hei, Verdana, Aril, sans-serif;-webkit-text-size-adjust: none; -webkit-font-smoothing: antialiased;}
+ul{margin:0; padding:0;}
+li{list-style: none;}
+a{cursor: pointer;text-decoration: none!important;}
+a,input,button{outline:none!important;}
+img{vertical-align: middle;border-radius: 2px;}
+.hidden{display:none;}
+*{box-sizing: border-box; outline: none!important;}
+
+html,body{
+  scrollbar-arrow-color: @gyl5; //*三角箭头的颜色*/ 
+  scrollbar-face-color: @gyl2; //*立体滚动条的颜色*/ 
+  scrollbar-3dlight-color: @wh; //*立体滚动条亮边的颜色*/ 
+  scrollbar-highlight-color: @wh; //*滚动条空白部分的颜色*/ 
+  scrollbar-shadow-color: @wh; //*立体滚动条阴影的颜色*/ 
+  scrollbar-darkshadow-color: @wh; //*立体滚动条强阴影的颜色*/ 
+  scrollbar-track-color: @wh; //*立体滚动条背景颜色*/ 
+  scrollbar-base-color:@gyl3; //*滚动条的基本颜色*/ 
+  ::-webkit-scrollbar{.bgc(fade(@bll8,60%)); .bdr(10px); width:8px; height:8px;}//滚动条整体部分
+  ::-webkit-scrollbar-thumb{.bgc(var(--scroll-thumb)); .bdr(10px); }//滚动条里面的小方块，能向上向下移动（或往左往右移动，取决于是垂直滚动条还是水平滚动条）
+  ::-webkit-scrollbar-track{.bgc(var(--scroll-track));}//滚动条的轨道（里面装有Thumb）
+  ::-webkit-scrollbar-button{.bgc(@tr); display:none;} //滚动条的轨道的两端按钮，允许通过点击微调小方块的位置。
+  ::-webkit-scrollbar-track-piece{.bgc(@tr);} //内层轨道，滚动条中间部分（除去）
+  ::-webkit-scrollbar-corner{.bgc(var(--tech-bg)); .bd(var(--tech-bd));} //边角，即两个滚动条的交汇处
+  ::-webkit-resizer {}//两个滚动条的交汇处上用于通过拖动调整元素大小的小控件
+}
+
+@media (max-width: 1440px){//小于1140生效
+}//@media
+
+@media (min-width: 1280px){//大于1280生效
+}//@media
+
+
+
+
+.language-cn .sys-name{.ff("cn0");}
+.language-en .sys-name{.ff("en0");font-weight: bold;}
+.language-tw .sys-name{font-size: 30px; font-weight: bold;}
+.language-jp .sys-name{font-size: 30px; font-weight: bold;}
+
+
+.language-cn .loading-inner{.sys-name{.ff("cn0");}}
+.language-en .loading-inner{.sys-name{.ff("en0");font-weight: bold;}}
+.language-tw .loading-inner{.sys-name{font-size: 30px; font-weight: bold;}}
+.language-jp .loading-inner{.sys-name{font-size: 30px; font-weight: bold;}}
