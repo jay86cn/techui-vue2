@@ -6,9 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-test": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "digitcube-core-build": "vue-cli-service build --target lib ./package/digitcube-core-source/build.js --name digitcube-core --dest digitcube-core",
-    "ayin-color-build": "vue-cli-service build --target lib ./package/ayin-color-source/index.js --name ayin-color --dest ayin-color"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.27.2",
