@@ -1,4 +1,4 @@
-English | [简体中文](. /README.md)
+English | [简体中文](. /README.cn.md)
 
 **This page was translated by Google**
 

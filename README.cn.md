@@ -1,4 +1,4 @@
-[English](./README.en.md) | 简体中文
+[English](./README.md) | 简体中文
 
 <h1 align="center">
 <b>数字魔方 开发包</b>
