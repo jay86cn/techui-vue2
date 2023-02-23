@@ -1,8 +1,8 @@
 import { createI18n } from 'vue-i18n'
-import cn from './langs/cn'
-import hk from './langs/hk'
-import en from './langs/en'
-import jp from './langs/jp'
+import cn from './config/cn'
+import hk from './config/hk'
+import en from './config/en'
+import jp from './config/jp'
 
 
 const data={cn,hk,en,jp}

@@ -3,7 +3,7 @@ import blue from "./config/blue"
 import green from "./config/green"
 import dark from "./config/dark"
 import temp from "./config/temp"
-// 基于ayincolor开发的主题功能。地址为https://www.npmjs.com/package/ayin-color 相关文档暂无，如需技术支持，请联系管理员
+// Theme function developed based on ayincolor
 export const themes = function (Vue) {
   Vue.use(AyinColor)
   const theme={
