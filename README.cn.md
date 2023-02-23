@@ -27,29 +27,29 @@
 
 本开发包内置3个数据屏，如下图。
 
-###### 数据屏A
+**数据屏A**
 
 <img src="./demo/screenA.png" style="border-radius:10px" width="800" />
 
-###### 数据屏C
+**数据屏C**
 
 <img src="./demo/screenC.png" style="border-radius:10px" width="800" />
 
-###### 数据屏D
+**数据屏D**
 
 <img src="./demo/screenD.png" style="border-radius:10px" width="800" />
 
 本开发包内置3个功能界面，分别是3D面板、科技边框、图表配色工具
 
-###### 3D面板
+**3D面板**
 
 <img src="./demo/board3D.png" style="border-radius:10px" width="800" />
 
-###### 科技边框
+**科技边框**
 
 <img src="./demo/techBorder.png" style="border-radius:10px" width="800" />
 
-###### 图表配色工具
+**图表配色工具**
 
 <img src="./demo/chartPalette.png" style="border-radius:10px" width="800" />
 
@@ -57,7 +57,7 @@
 
 移动端数据屏的开发源码，位于**QQ群:119059920** 的群文件中，请自取。
 
-###### 数据屏A-移动端 
+**数据屏A-移动端** 
 
 <img src="./demo/screenA-mobile.png" style="border-radius:10px" width="300" />
 
@@ -65,16 +65,16 @@
 
 **以下数据屏以及更多demo，请查阅 [数字魔方演示站](http://124.222.103.91/)** 
 
-###### 数据屏B
+**数据屏B**
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
-###### 企业拼接屏4x2
+**企业拼接屏4x2**
 
 <img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
 
 
-### ✨特性
+## ✨特性
 
 - 🖥️全端适配
 完美的全端适配方案，个人电脑、手机、平板、企业拼接屏，可以说任何终端设备均可以完美适配，行业内领先的适配方案。
@@ -136,7 +136,7 @@
 
 关于许可证的说明请查阅 [许可证说明](http://124.222.103.91:8080/license/license#%E4%BB%8B%E7%BB%8D)
 
-###### 请打开微信后扫码添加客服，此微信号，仅用于商务洽谈。请打开微信后扫码添加客服
+**请打开微信后扫码添加客服，此微信号，仅用于商务洽谈。请打开微信后扫码添加客服**
 
 <img src="./demo/QRcode.png" width="300" />
 

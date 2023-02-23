@@ -1,147 +1,154 @@
-English | [简体中文](./README.cn.md)
-
-**This page was translated by Google**
+[English](./README.en.md) | 简体中文
 
 <h1 align="center">
-<b>DigitalCube Development Kit</b>
+<b>数字魔方 开发包</b>
 </h1>
-<div align="center">Digitcube is a simple and easy-to-use visual large-screen front-end framework, developed based on vue2</div>
+<div align="center">Digitcube数字魔方是一款简单易用的可视化大屏前端框架，基于vue2开发</div>
 
 <p align="center">
-   <a href="http://124.222.103.91:8080/">Documentation</a> •
-   <a href="http://124.222.103.91/">Demo Site</a> •
-   <a href="https://www.npmjs.com/package/digitcube-core">core library</a> •
-   <a href="https://www.youtube.com/@ayin86cn">Youtube</a>
+  <a href="http://124.222.103.91:8080/">文档</a> •
+  <a href="http://124.222.103.91/">演示站</a> •
+  <a href="https://www.npmjs.com/package/digitcube-core">核心库</a> •
+  <a href="https://space.bilibili.com/302402751">Bili</a>
 </p>
 
+## 🛡️声明
 
-## 🛡️ Declaration
+<span style="color:red">**本开发包内置的临时许可证，仅用于测试、体验、学习。无法调试，无法打包部署。** </span>
 
-<span style="color:red">**The Temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. ** </span>
-
-The files in this development kit are development source codes, which can be used for commercial project development only by updating the license. For details, please contact the administrator.
-
-
-
-- Free users can learn data visualization development ideas, design, themes, multi-language, style, layout, and the use of echarts through this development kit
-- Authorized users, contact the administrator to update the license and go directly to the development stage.
+本开发包内的文件为开发源码，仅需更新许可证即可用于商业项目开发，详情请联系管理员。
 
 
 
-This development kit has 3 built-in data screens, as shown in the figure below.
+- 免费用户，可以通过本开发包学习数据可视化的开发思路、设计、主题、多语言、样式、布局、以及echarts的使用等
+- 授权用户，联系管理员更新许可证后直接进入开发阶段。
 
-###### Data Screen A
+
+
+**本开发包内置3个数据屏，如下图。**
+
+**数据屏A**-支持地图下钻数据联动
 
 <img src="./demo/screenA.png" style="border-radius:10px" width="800" />
 
-###### Data Screen C
+**数据屏C**
 
 <img src="./demo/screenC.png" style="border-radius:10px" width="800" />
 
-###### Data Screen D
+**数据屏D**
+
 <img src="./demo/screenD.png" style="border-radius:10px" width="800" />
 
-This development kit has 3 built-in functional interfaces, namely 3D panel, tech border and chart colour matching tool
+**本开发包内置3个功能界面，分别是3D面板、科技边框、图表配色工具**
 
-###### 3D panel
+**3D面板**
 
 <img src="./demo/board3D.png" style="border-radius:10px" width="800" />
 
-###### Tech border
+**科技边框**
 
 <img src="./demo/techBorder.png" style="border-radius:10px" width="800" />
 
-###### Chart Colour Matching Tool
+**图表配色工具**
 
 <img src="./demo/chartPalette.png" style="border-radius:10px" width="800" />
 
 
 
-The source code for the development of the mobile data screen is located in the group file of **QQ Group:119059920**, please pick it up yourself.
+**移动端数据屏的开发源码，位于QQ群:119059920 的群文件中，请自取。**
 
-###### Data Screen A-Mobile 
+**数据屏A-移动端** 
 
 <img src="./demo/screenA-mobile.png" style="border-radius:10px" width="300" />
 
 
 
-**For the following data screens and more demos, please check out [Digital Cube Demo Site](http://124.222.103.91/)** 
+**以下数据屏以及更多demo，请查阅 [数字魔方演示站](http://124.222.103.91/)** 
 
-###### Data Screen B
+**数据屏B**
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
-###### enterprise splash screen 4x2
+**企业拼接屏4x2**
 
 <img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
 
 
-### ✨Features
+## ✨特性
 
-- 🖥️ full-end adaptation
-  The perfect all-end adaptation solution for PCs, mobile phones, tablets, corporate splicing screens, so to speak, any end device can be perfectly adapted, the industry's leading adaptation solution.
+- **🖥️全端适配**
 
-- 🎨 Powerful built-in themes
-  One click to switch styles, all elements, elements and details of everything are perfectly supported by the theme switch. Themes can be developed quickly and customised according to customer requirements using the built-in theme designer.
+  完美的全端适配方案，个人电脑、手机、平板、企业拼接屏，可以说任何终端设备均可以完美适配，行业内领先的适配方案。
 
-- 🛸 Free development without limits
-  Using webpack, vue2 and other popular technology stack, by calling self-developed components and chart components, you can quickly deploy online without too much tedious development process, greatly shortening the development cycle. Truly free development at source level.
+- **🎨强大的内置主题**
 
-- 🧩 Full use of SVG for de-bitmap
-  Full vectorisation (de-bitmap), due to the special use of visualisation of large screens, the use of traditional bitmap situation graphics zoom details blurred, while the use of vector graphics details scaled can still maintain the original details of clarity.
+  一键切换风格，所有元素，事无巨细的元素和细节均完美支持主题切换。主题可以根据客户需求使用内置主题设计器进行快速的定制化开发。
 
-- 📊Enterprise splicing screen
-  In the face of enterprise splicing screens, we have a very wide range of display solutions that can be customised according to the customer's splicing screen equipment. The best display effect can be achieved with any device.
+- **🛸自由开发无限制**
 
+  采用webpack、vue2等流行技术栈，通过调用自研发组件和图表组件，不需要过多繁琐的开发过程即可快速部署上线，大大缩短了开发周期。真正做到了源码级的自由开发。
 
-- 🌈 Intelligent colour matching for charts
-  With this framework, you can say goodbye to the headache of colour matching for charts. It provides the ability to colour match charts intelligently and the chart colouring tool.
+- **🧩去位图化全面使用SVG**
 
-- 🗺️GEO 3D maps
-  Based on the GEO Json format, the map is easy to use and can be used for most scenarios. The map can be presented in flat or 3D format.
+  全面矢量化（去位图化），因可视化大屏的特殊使用场景，采用传统位图的情况图形放大细节模糊，而采用矢量图细节缩放后还能保持原来的细节清晰度。
 
-- 🧑‍ Internationalisation
-  Aimed at global business and expanding market coverage, internationalisation can improve user satisfaction, reduce development and maintenance costs and increase the scalability of the software.
+- **📊企业拼接屏**
 
-- 🚀 Steady iteration and rapid response
-  The framework has gone through two major releases and numerous minor iterations, with timely bug fixes and steady feature expansion. For paying users can be done in a timely manner.
+  面对企业级的拼接屏，我们有着非常多的展现方案，可以根据客户的拼接屏设备情况进行定制开发。在任意设备下均可以达到最佳的展现效果。
 
 
+- **🌈图表智能配色**
+
+  使用本框架，就彻底告别了图表配色这一头疼的问题。提供了智能图表配色的功能和图表配色工具。
+
+- **🗺️GEO 3D 地图**
+
+  基于GEO Json格式的地图，简单易上手，能满足绝大多数的使用场景，可以在地图上放置点、线、面、图形等任意数据。可以用平面或者3D的形式展现地图。
+
+- **🧑‍国际化**
+
+  面向全球业务，扩大市场覆盖范围，国际化可以提高用户满意度、降低开发和维护成本、增加软件的可扩展性。
+
+- **🚀稳步迭代急速响应**
+
+  本框架历经两个大版本，无数小版本的迭代，bug修复及时，功能拓展稳步进行中。对于付费用户可以做到及时响应。
 
 
-## 📖 Installation Tutorial
-
-1. npm is recommended to install the dependencies
-2. npm run serve to start the project and preview
-
-Please refer to [documentation](http://124.222.103.91:8080/) for development package description and usage
 
 
+## 📖安装教程
 
-## 🌟Licensing
+1.  `cnpm i` 安装依赖，建议使用cnpm
+2.  `npm run serve` 启动项目即可预览
 
-If you need to purchase a license or negotiate with us, please contact us on WeChat for details.
+开发包介绍和使用方式请查阅 [文档](http://124.222.103.91:8080/)
 
-Please indicate **company+job** in the verification message when you add the WeChat, applications without verification information will be ignored.
 
-If you are verified, please send a photo of your position, such as a job title or work badge, if possible. Also indicate your purpose.
 
-Refer to the options below.
+## 🌟许可证授权
 
-- Request for quotation
-- Custom development
-- Purchase of a licence
-  - Licences with term
-  - Indefinite licence
-  - Bulk purchase of licenses 
-- Negotiation of cooperation
+如果您需要购买授权或者合作洽谈，请添加客服微信详聊。
 
-For a description of the licence, please refer to [Licence Description](http://124.222.103.91:8080/license/license#%E4%BB%8B%E7%BB%8D)
+添加微信的验证信息请标明 **公司+职位**，没有验证信息的情况下申请会被忽略。
 
-###### Please open WeChat and scan the code to add customer service, this WeChat signal, only for business negotiations. Please open WeChat and scan the code to add customer service
+在通过验证的情况下，请尽可能发一张能证明您职位的照片，如职位证明或工牌。并表明您的目的：
+
+参考下方的选项：
+
+- 询价
+- 定制开发
+- 购买许可证
+  - 有期限许可证
+  - 无期限许可证
+  - 批量采购许可证 
+- 合作洽谈
+
+关于许可证的说明请查阅 [许可证说明](http://124.222.103.91:8080/license/license#%E4%BB%8B%E7%BB%8D)
+
+**请打开微信后扫码添加客服，此微信号，仅用于商务洽谈。请打开微信后扫码添加客服**
 
 <img src="./demo/QRcode.png" width="300" />
 
-For overseas customers, please contact ayin86cn@gmail.com via email
+海外客户，请通过邮件联系  ayin86cn@gmail.com
 
-Data Visualisation TechGroupQQ Group:119059920 Technical Communication
+数据可视化TechGroupQQ群:119059920 技术交流
