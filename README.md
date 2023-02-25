@@ -72,7 +72,7 @@ The files in this development kit are development source codes, which can be use
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
- enterprise splash screen 4x2
+ **Enterprise splash screen 4x2**
 
 <img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
 
