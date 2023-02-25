@@ -61,20 +61,20 @@ export default {
       aYinBorders:[],
       pageConfig:{
         col:{current:4,children:[
-          {title:"三列",label:3},
-          {title:"四列",label:4},
+          {title: "Three col", label: 3},
+          {title: "Four col", label: 4},
         ]},
-        height:{current:"short",children:[
-          {title:"高",label:"high"},
-          {title:"矮",label:"short"},
+        height: {current: "short", children: [
+          {title: "High", label: "high"},
+          {title: "Short", label: "short"},
         ]},
         ani:{current:"aniOn",children:[
-          {title:"动画开",label:"aniOn"},
-          {title:"动画关",label:"aniOff"},
+          {title: "Ani On", label: "aniOn"},
+          {title: "Ani Off", label: "aniOff"},
         ]},
         config:{current:"cfgOn",children:[
-          {title:"配置项开",label:"cfgOn"},
-          {title:"配置项关",label:"cfgOff"},
+          {title: "Config On", label: "cfgOn"},
+          {title: "Config Off", label: "cfgOff"},
         ]}
       }
     };
@@ -95,13 +95,13 @@ export default {
     initBorderConfig(){
       let borders=[
         //---------------- ayin tech border 
-        {name:"aYin Tech Border",subTitle:"Design&Dev By aYin",desc:"受@jiaminghi/data-view开源组件启发，设计并开发了以下科技边框。边框的主题与全局主题联动切换，通过右上角控制面板按钮打开进行切换。",children:[
+        {name:"aYin Tech Border",subTitle:"Design&Dev By aYin",desc:"Inspired by @jiaminghi/data-view open source components, the following technological borders are designed and developed. The theme of the border is switched in conjunction with the global theme, and can be switched through the control panel button in the upper right corner.",children:[
           {border:"aYinTechBorderA1",config:{
             // backgroundColor:$c.bll9,
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
           }},
           {border:"aYinTechBorderA1",config:{
@@ -121,7 +121,7 @@ export default {
             // borderColor:$c.bll7,
             decorationColor:[$c.bll3,$c.rel5],
             titleColor:$c.rel2,
-            title:"壹号",
+            title:"No.1",
           }},
 
           {border:"aYinTechBorderA3",config:{
@@ -129,7 +129,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
           }},
 
@@ -193,7 +193,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
           }},
           {border:"aYinTechBorderA1",config:{
@@ -201,7 +201,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试六字标题",
+            title:"Test Long Title",
             decorationAlt:true,
             rotate:'x'
           }},
@@ -210,7 +210,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试十个字十个字标题",
+            title:"Test Long Long Long Title",
             titleWidth:190,
             decorationAlt:true,
             rotate:'y'
@@ -220,7 +220,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
             rotate:'z'
           }},
@@ -263,7 +263,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
             directionAlt:true,
           }},
@@ -272,7 +272,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试六字标题",
+            title:"Test Long Title",
             decorationAlt:true,
             directionAlt:true,
             rotate:'x'
@@ -282,7 +282,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试十个字十个字标题",
+            title:"Test Long Long Long Title",
             titleWidth:190,
             decorationAlt:true,
             directionAlt:true,
@@ -293,7 +293,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // borderColor:$c.bll7,
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
             directionAlt:true,
             rotate:'z'
@@ -320,7 +320,7 @@ export default {
             // borderColor:$c.bll7,
             // glowColor:$c.fade($c.bll3,.3),
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:100,
             decoration:false,
             glow:true,
@@ -405,7 +405,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             decorationAlt:true
           }},
@@ -414,7 +414,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             rotate:'x'
           }},
@@ -423,7 +423,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             rotate:'y'
           }},
@@ -432,7 +432,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             decoration:false,
             decorationAlt:true,
@@ -445,7 +445,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             directionAlt:true,
           }},
@@ -454,7 +454,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             directionAlt:true,
             rotate:'y'
@@ -464,7 +464,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             decoration:false,
             directionAlt:true,
@@ -476,7 +476,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             directionAlt:true,
             rotate:'z'
@@ -490,7 +490,7 @@ export default {
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
             borderWidth:3,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
           }},
           {border:"aYinTechBorderA3",config:{
@@ -499,7 +499,7 @@ export default {
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
             border:false,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
           }},
           {border:"aYinTechBorderA3",config:{
@@ -509,7 +509,7 @@ export default {
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
             glow:true,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             decoration:false,
           }},
@@ -520,7 +520,7 @@ export default {
             // decorationColor:[$c.bll3,$c.aql5],
             // titleColor:$c.cyl5,
             glow:true,
-            title:"测试标题",
+            title:"Block Title",
             titleWidth:80,
             decoration:false,
             directionAlt:true,
@@ -700,7 +700,7 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
             
-            title:"测试标题",
+            title:"Block Title",
           }},
           {border:"DVBorderBox2",config:{
             // backgroundColor:$c.bll9,
@@ -762,7 +762,7 @@ export default {
             // borderColor:$c.bll7,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
           }},
           {border:"DVBorderBox1",config:{
             // backgroundColor:$c.bll9,
@@ -770,13 +770,13 @@ export default {
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
             // borderWidth:3,
-            title:"测试标题",
+            title:"Block Title",
           }},
           {border:"DVBorderBox1",config:{
             // backgroundColor:$c.bll9,
             // decorationColor:[$c.bll3,$c.cyl5],
             // titleColor:$c.cyl5,
-            title:"测试标题",
+            title:"Block Title",
             border:false
           }},
           {border:"DVBorderBox1",config:{
@@ -788,7 +788,7 @@ export default {
             decoration:false,
             glow:true,
             titleWidth:250,
-            title:"比较长的测试标题",
+            title:"比较长的Block Title",
           }},
         ]},
 
@@ -1021,15 +1021,15 @@ export default {
     if(tipState){
       A("tis","notify1",()=>{
         $notify({
-          title: '性能提示',
-          message: '本页面同时加载大量的svg边框，并且很多边框带动画、模糊背景、形变等效果，可能引起卡顿等问题，此为正常现象，如需更好的访问效果，请关闭背景动画，或者更换更高性能的电脑重试。',
+          title: 'Performance Tips',
+          message: 'This page loads a large number of svg borders at the same time, and many borders have animation, blurred background, deformation and other effects, which may cause problems such as stuttering. This is a normal phenomenon. If you need a better access effect, please turn off the background animation. Or change to a computer with higher performance and try again. ',
           duration: 0
         });
       },3000)
       A("tis","notify2",()=>{
         $notify({
-          title: 'SVG科技边框说明',
-          message: '所有的SVG科技边框，均支持动态自适应，动态换肤，动态切换配置项。通过配置项来配置每个边框的外观、状态、表现、动画、特效等。',
+          title: 'Description of SVG Technology Border',
+          message: 'All SVG technological borders support dynamic adaptation, dynamic skinning, and dynamic switching of configuration items. Configure the appearance, status, performance, animation, special effects, etc. of each border through configuration items. ',
           duration: 0
         });
       },4000)

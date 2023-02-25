@@ -2,11 +2,11 @@
 <template>
   <screenAdaptive  :adaptiveType="'proportional'" :loading="loading" :style="svgBG1">
     <div class="view3d-state" :class="[$vuex.state.globalConfig.board3D?'on3D':'off3D']">
-      <div class="state state-on">3D视图已打开</div>
-      <div class="state state-off">3D视图已关闭</div>
-      <div class="desc">请在全局配置项中打开3D面板功能</div>
+      <div class="state state-on">3D view is on</div>
+      <div class="state state-off">3D view is off</div>
+      <div class="desc">Please enable the 3D panel function in the global configuration item</div>
     </div>
-    <div class="title-desc">Hover模式为静态参数，本demo为分别配置的参数，变形轴向，参数，阴影等</div>
+    <div class="title-desc">Hover mode is a static parameter, this demo is a parameter configured separately, deformation axis, parameter, shadow, etc.</div>
     <!-- <anyToggle :config="toggleConfig" class="board3D-view-toggle"></anyToggle> -->
     <div class="board3D-test-hover-wrap">
       <board3D :config="configBLeft" class="board-3d board-left">

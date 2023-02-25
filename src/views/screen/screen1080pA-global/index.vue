@@ -41,18 +41,19 @@ export default {
     if(tipState){
       A("tis","notify1",()=>{
         $notify({
-          title: '提示',
-          message: '如果您的电脑运行有些卡顿，请在控制面板中关闭过渡动画、3D面板、背景模糊等效果。控制面板开关位于窗口右上角。如非首次访问，可在控制面板中关闭所有提示选项。',
+          title: 'Tip',
+          message: 'If your computer is running a little stuck, please turn off transition animation, 3D panel, background blur and other effects in the control panel. The control panel switch is located in the upper right corner of the window. If it is not your first visit, you can turn off all prompts in the control panel.',
           duration: 0
         });
       },3000)
-      A("tis","notify3",()=>{
+      A("tis","notify2",()=>{
         $notify({
-          title: '提示',
-          message: '导航菜单位于页面底部中央的脉冲按钮。另外除了本数据屏，其他数据屏均未国际化。',
+          title: 'Tip',
+          message: 'The navigation menu is located on the pulse button at the bottom center of the page. Besides this data screen, other data screens are not internationalized.',
           duration: 0
         });
       },4000)
+      
     }
   },
   beforeDestroy() {
@@ -60,7 +61,7 @@ export default {
     $notify.closeAll()
     A("tic","notify1")
     A("tic","notify2")
-    A("tic","notify3")
+    // A("tic","notify3")
   },
 };
 </script> 

@@ -2,11 +2,11 @@
 <template>
   <screenAdaptive  :adaptiveType="'advance'" :loading="loading" :style="svgBG1">
     <div class="view3d-state" :class="[$vuex.state.globalConfig.board3D?'on3D':'off3D']">
-      <div class="state state-on">3D视图已打开</div>
-      <div class="state state-off">3D视图已关闭</div>
-      <div class="desc">请在全局配置项中打开3D面板功能</div>
+      <div class="state state-on">3D view is on</div>
+      <div class="state state-off">3D view is off</div>
+      <div class="desc">Please enable the 3D panel function in the global configuration item</div>
     </div>
-    <div class="title-desc">Unity模式，只有最外层的面板参与变形，内部item的阴影实时计算。</div>
+    <div class="title-desc">In Unity mode, only the outermost panel participates in deformation, and the shadow of the internal item is calculated in real time. </div>
     <div class="board3D-test-unity-wrap">
       
       <board3D :config="boar3dConfig" class="board-3d">

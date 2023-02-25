@@ -2,11 +2,11 @@
 <template>
   <screenAdaptive :adaptiveType="'proportional'" :loading="loading" :style="svgBG1">
     <div class="view3d-state" :class="[$vuex.state.globalConfig.board3D?'on3D':'off3D']">
-      <div class="state state-on">3D视图已打开</div>
-      <div class="state state-off">3D视图已关闭</div>
-      <div class="desc">请在全局配置项中打开3D面板功能</div>
+      <div class="state state-on">3D view is on</div>
+      <div class="state state-off">3D view is off</div>
+      <div class="desc">Please enable the 3D panel function in the global configuration item</div>
     </div>
-    <div class="title-desc">Matrix模式，所有的面板变形效果一致，所有的参数公用，通过v-for循环</div>
+    <div class="title-desc">Matrix mode, all panels have the same deformation effect, all parameters are common, through v-for loop</div>
     <div class="board3D-test-matrix-wrap">
       <div class="gridDemoMax">
         <div class="item" v-for="(item,index) in 15">

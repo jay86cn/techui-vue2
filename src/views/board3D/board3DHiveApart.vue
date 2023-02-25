@@ -4,11 +4,11 @@
   <screenAdaptive  :adaptiveType="'proportional'" :loading="loading" :style="svgBG1">
     <!-- <anyToggle :config="toggleConfig" class="board3D-view-toggle"></anyToggle> -->
     <div class="view3d-state" :class="[$vuex.state.globalConfig.board3D?'on3D':'off3D']">
-      <div class="state state-on">3D视图已打开</div>
-      <div class="state state-off">3D视图已关闭</div>
-      <div class="desc">请在全局配置项中打开3D面板功能</div>
+      <div class="state state-on">3D view is on</div>
+      <div class="state state-off">3D view is off</div>
+      <div class="desc">Please enable the 3D panel function in the global configuration item</div>
     </div>
-    <div class="title-desc">Hive独立模式，参数分别配置，变形轴向，系数，阴影各个参数等</div>
+    <div class="title-desc">Hive independent mode, parameters are configured separately, deformation axis, coefficient, shadow parameters, etc.</div>
     <div class="board3D-test-hive-wrap">
     <div class="gridDemoApart">
       <div class="item">

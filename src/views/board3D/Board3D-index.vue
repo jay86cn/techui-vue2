@@ -2,11 +2,11 @@
 <template>
    <div class="board3D-demo" >
      <el-tabs v-model="activeName"  @tab-click="handleClick">
-      <el-tab-pane label="矩阵交互" name="matrix"> </el-tab-pane>
-      <el-tab-pane label="蜂巢交互" name="hive"> </el-tab-pane>
-      <el-tab-pane label="一体交互" name="unity">角色管理</el-tab-pane>
-      <el-tab-pane label="悬停交互" name="hover">定时任务补偿</el-tab-pane>
-      <el-tab-pane label="蜂巢交互独立" name="hiveApart">定时任务补偿</el-tab-pane>
+      <el-tab-pane label="Matrix Interaction" name="matrix"> </el-tab-pane>
+      <el-tab-pane label="Hive interaction" name="hive"> </el-tab-pane>
+      <el-tab-pane label="Unity Interaction" name="unity"></el-tab-pane>
+      <el-tab-pane label="Hover interaction" name="hover"></el-tab-pane>
+      <el-tab-pane label="Hive Interaction Independent" name="hiveApart"></el-tab-pane>
     </el-tabs>
     <div class="tab-content">
       <board3DMatrix v-if="activeName=='matrix'"></board3DMatrix>
@@ -49,23 +49,23 @@ export default {
       if(this.$vuex.state.deviceType=="pc"){
         A("tis","notify1",()=>{
           $notify({
-            title: '提示',
-            message: '本功能是自研的3D变形面板，可以将任意内容的面板3D化，提供多种交互方式，目前本Demo系统还在开发完善中，后续会开发用于展示3D面板的数据屏，敬请期待。',
+            title: 'Prompt',
+            message: 'This function is a self-developed 3D deformation panel, which can convert any content panel into 3D and provide a variety of interactive methods. At present, this Demo system is still under development, and a data screen for displaying 3D panels will be developed later. Stay tuned. ',
             duration: 0
           });
         },5000)
         A("tis","notify2",()=>{
           $notify({
-            title: '3D面板全局开关',
-            message: '如果3D视图模式已关闭，请在控制面板中打开3D面板功能。',
+            title: '3D panel global switch',
+            message: 'If the 3D view mode is off, please turn on the 3D panel function in the control panel. ',
             duration: 0
           });
         },6000)
       }else{
         A("tis","notify1",()=>{
           $notify({
-            title: '请用PC访问此页面',
-            message: '因为移动端无光标交互功能，所以3D面板无法在移动端进行交互和追踪，请使用PC访问。',
+            title: 'Please use a PC to visit this page',
+            message: 'Because there is no cursor interaction function on the mobile terminal, the 3D panel cannot be interacted and tracked on the mobile terminal, please use PC to access. ',
             duration: 0
           });
         },5000)
