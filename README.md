@@ -11,7 +11,7 @@
    <a href="http://124.222.103.91:8080/">Documentation</a> •
    <a href="http://124.222.103.91/">Demo Site</a> •
    <a href="https://www.npmjs.com/package/digitcube-core">Core library</a> •
-   <a href="https://www.youtube.com/@ayin86cn">Youtube</a> •
+   <a href="https://www.youtube.com/watch?v=3A8ECsl5Q2g&t=6s&ab_channel=aYinCN">Youtube Preview</a> •
    <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
 
