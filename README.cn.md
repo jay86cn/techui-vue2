@@ -9,7 +9,8 @@
   <a href="http://124.222.103.91:8080/">文档</a> •
   <a href="http://124.222.103.91/">演示站</a> •
   <a href="https://www.npmjs.com/package/digitcube-core">核心库</a> •
-  <a href="https://space.bilibili.com/302402751">Bili</a>
+  <a href="https://space.bilibili.com/302402751">Bili</a> •
+  <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
 
 ## 🛡️声明
