@@ -58,7 +58,7 @@ The files in this development kit are development source codes, which can be use
 
 
 
-**The source code for the development of the mobile data screen is located in the group file of QQ Group:119059920, please pick it up yourself.**
+**The development source code of the mobile data screen is located in the telgram group, and the group link is at the bottom of the document, please pick it up yourself.**
 
  **Data Screen A-Mobile** 
 
@@ -131,28 +131,10 @@ Please refer to [documentation](http://124.222.103.91:8080/) for development pac
 
 ## 🌟Licensing
 
-If you need to purchase a license or negotiate with us, please contact us on WeChat for details.
+If you need to purchase authorization or negotiate cooperation, please add [Telgram@ayin86cn](https://t.me/ayin86cn) to chat in detail.
 
-Please indicate **company+job** in the verification message when you add the WeChat, applications without verification information will be ignored.
+You can also add the discussion group [DigitcubeGroup](https://t.me/+RJZ4cmDrcCFmNWNl)
 
-If you are verified, please send a photo of your position, such as a job title or work badge, if possible. Also indicate your purpose.
+You can also contact ayin86cn@gmail.com by email
 
-Refer to the options below.
-
-- Request for quotation
-- Custom development
-- Purchase of a licence
-  - Licences with term
-  - Indefinite licence
-  - Bulk purchase of licenses 
-- Negotiation of cooperation
-
-For a description of the licence, please refer to [Licence Description](http://124.222.103.91:8080/license/license#%E4%BB%8B%E7%BB%8D)
-
-**Please open WeChat and scan the code to add customer service, this WeChat signal, only for business negotiations. Please open WeChat and scan the code to add customer service**
-
-<img src="./demo/QRcode.png" width="300" />
-
-For overseas customers, please contact ayin86cn@gmail.com via email
-
-Data Visualisation TechGroupQQ Group:119059920 Technical Communication
+Friends in mainland China, you can add data visualization TechGroupQQ group: 119059920 technical exchange
