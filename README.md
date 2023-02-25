@@ -136,5 +136,3 @@ If you need to purchase authorization or negotiate cooperation, please add [Telg
 You can also add the discussion group [DigitcubeGroup](https://t.me/+RJZ4cmDrcCFmNWNl)
 
 You can also contact ayin86cn@gmail.com by email
-
-Friends in mainland China, you can add data visualization TechGroupQQ group: 119059920 technical exchange
