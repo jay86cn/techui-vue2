@@ -35,8 +35,8 @@ export default {
     if(tipState){
       A("tis","notify1",()=>{
         $notify({
-          title: '提示',
-          message: '内容较为丰富复杂的数据屏，通常不建议在一个数据屏内放置如此多的内容。',
+          title: 'Tip',
+          message: 'Data screens that are richer and more complex in content are usually not recommended to have so much content within one data screen.',
           duration: 3000
         });
       },3000)

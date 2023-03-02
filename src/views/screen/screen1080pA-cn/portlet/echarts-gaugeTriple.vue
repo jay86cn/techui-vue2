@@ -2,6 +2,7 @@
 <echartsInit :chartOption="chartOption" ></echartsInit>
 </template>
 <script>
+import {httpGaugeTriple} from "@/api/api.js"
 import themeChart from "@/mixins/themeChart"
 export default {
 components: { },
@@ -10,10 +11,10 @@ data() {
   return {
     chartData:{
       title:"任务完成情况",
-      legend:['开发任务','采购任务','销售任务'],
+      legend:['开发任务1','采购任务2','销售任务3'],
       colors:[$c.aql4, $c.cyl4,$c.rel5],
       colorsD:[$c.aql8,$c.cyl8,$c.rel9],
-      data:[45,33,77],
+      data:[12,14,66],
       radius:["55%","65%","55%"],
       position:[
         ['17%', '55%'],
@@ -112,10 +113,21 @@ data() {
     chartTheme(){
       const {chartData,getPalette,oriColors}=this
       chartData.colors=getPalette({ actual:3,pickType:"seq",palette:"alt"})
+    },
+    getData(){
+      let params={};
+      httpGaugeTriple(params).then(res=>{
+        // this.chartData.legend=res.legend;
+        // this.chartData.data=res.data;
+        this.chartData=Object.assign(this.chartData,res)
+        this.processOption();
+        this.chartOption.update=true;
+      })
     }
   },
   mounted() {
-    this.processOption();
+    this.getData();
+    // this.processOption();
   }
 }
 </script>

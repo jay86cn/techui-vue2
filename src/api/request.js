@@ -1,7 +1,7 @@
 import vuex from '@/vuex'
 import axios from 'axios'
 const envMode=process.env.NODE_ENV;
-const publicUrl=envMode=='development'?'/api':"/api"
+const publicUrl=envMode=='development'?'/':"/api"
 
 /**
  * 封装请求 
@@ -28,12 +28,12 @@ export const http = (method, url, params = {},loading) => {
     })
     .then(res => {
         if(res.status==200){
-            console.log('code0',res)
-            if(!res.data.success){
-                // showMessage(res.data.errorMessage, "error")
-            }else{
-              resolve(res.data);
-            }
+            // console.log('code0',res)
+            // if(!res.data.success){
+            //     // showMessage(res.data.errorMessage, "error")
+            // }else{
+            // }
+            resolve(res.data);
             // console.log("store!!",vuex.state.userInfo)
 
         }else{
@@ -86,9 +86,9 @@ export const fetchLocl = async(method, url, params)=>{
     //   'Content-Type': 'application/x-www-form-urlencoded',
     // },
   }
-  if(method=='post'){ opts.body={params}}
-  return await fetch(url,opts).then((res)=>{
-    console.log("fetch",url);
+  if(method=='post'){ opts.body={params} }
+  return await fetch(url,opts).then((res) => {
+    // console.log("fetch",url);
     return res.json();
   })
   // .then((res) => { return res; })

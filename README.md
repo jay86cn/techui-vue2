@@ -42,6 +42,17 @@ The files in this development kit are development source codes, which can be use
 
 <img src="./demo/screenD.png" style="border-radius:10px" width="800" />
 
+
+ **Data Screen A-Mobile** 
+
+<img src="./demo/screenA-mobile.png" style="border-radius:10px" width="300" />
+
+
+ **Enterprise splash screen 4x2**
+
+<img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
+
+
 **This development kit has 3 built-in functional interfaces, namely 3D panel, tech border and chart colour matching tool**
 
  **3D panel**
@@ -58,23 +69,13 @@ The files in this development kit are development source codes, which can be use
 
 
 
-**The development source code of the mobile data screen is located in the telgram group, and the group link is at the bottom of the document, please pick it up yourself.**
-
- **Data Screen A-Mobile** 
-
-<img src="./demo/screenA-mobile.png" style="border-radius:10px" width="300" />
-
-
 
 **For the following data screens and more demos, please check out [Digital Cube Demo Site](http://124.222.103.91/)** 
 
- **Data Screen B**
-
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
- **Enterprise splash screen 4x2**
+-----
 
-<img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
 
 
 ## ✨Features
@@ -118,6 +119,38 @@ The files in this development kit are development source codes, which can be use
 
 
 
+-----
+
+
+
+## 📜 Update notes
+
+- **20230302 Development source code for mobile data screens, splicing screens, integrated into the development kit.**
+
+- **20230225 Documentation updated in English and Traditional Chinese languages**
+
+- **20230223 First release of the development kit to Gitee and Github, documentation released simultaneously**
+
+
+
+A free version may be released without the features of themes and multilingualism, and with fewer components. The list of components available for free commercial use is as follows (preliminary):
+
+- Adaptive components (isometric mode only)
+- Chart components
+- Technology panels (about 10-12)
+- Technology headings
+- Block headings
+- loading
+- SVG backgrounds
+
+These components are basically sufficient for an average commercial project, as for other features, they are only available in the premium version. The free version allows you to add any three-way component or custom component to implement other features.
+
+The time frame is uncertain, after all the author is developing it in his spare time, it will probably be released in 3-6 months.
+
+
+
+-----
+
 
 
 ## 📖 Installation Tutorial
@@ -126,6 +159,8 @@ The files in this development kit are development source codes, which can be use
 2. `npm run serve` to start the project to preview
 
 Please refer to [documentation](http://124.222.103.91:8080/) for development package description and usage
+
+-----
 
 
 

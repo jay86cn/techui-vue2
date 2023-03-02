@@ -22,10 +22,10 @@ export default {
       tab:{
         active:"bar",
         components:[
-          {title:"柱状图",name:"bar",component:barA},
-          {title:"曲线图",name:"line",component:lineB},
-          {title:"饼状图",name:"pie",component:pieC},
-          {title:"热力图",name:"heatmap",component:heatmapD},
+          {title:"Bar",name:"bar",component:barA},
+          {title:"Line",name:"line",component:lineB},
+          {title:"Pie",name:"pie",component:pieC},
+          {title:"Heatmap",name:"heatmap",component:heatmapD},
         ],
       },
     };

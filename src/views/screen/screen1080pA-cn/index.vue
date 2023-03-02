@@ -33,8 +33,8 @@ export default {
     if(tipState){
       A("tis","notify1",()=>{
         $notify({
-          title: '提示',
-          message: '本数据屏为"screenAGlobal"未处理国际化的版本',
+          title: 'Tip',
+          message: 'This data screen is the unprocessed internationalised version of "screenAGlobal".',
           duration: 3000
         });
       },3000)

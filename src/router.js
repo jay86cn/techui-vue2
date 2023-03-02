@@ -32,6 +32,21 @@ const router=new Router({
       component: () => import('@/views/screen/screen1080pD/index'),
     },
     {
+      path: '/screenMobileA',
+      name: 'screenMobileA',
+      component: () => import('@/views/screen/screenMobile/index'),
+    },
+    {
+      path: '/screen4x2Single',
+      name: 'screen4x2Single',
+      component: () => import('@/views/screen4x2/screenSingle-index'),
+    },
+    {
+      path: '/screen4x2Combin',
+      name: 'screen4x2Combin',
+      component: () => import('@/views/screen4x2/screenCombin-index'),
+    },
+    {
       path: '/board3D',
       name: 'board3D',
       component: () => import('@/views/board3D/Board3D-index'),
