@@ -6,8 +6,8 @@
 <div align="center">Digitcube數字魔方是壹款簡單易用的可視化大屏前端框架，基於vue2開發</div>
 
 <p align="center">
-  <a href="http://124.222.103.91:8080/">文檔</a> •
-  <a href="http://124.222.103.91/">演示站</a> •
+  <a href="https://doc.ayin86.com/">文檔</a> •
+  <a href="https://ayin86.com/">演示站</a> •
   <a href="https://www.npmjs.com/package/digitcube-core">核心庫</a> •
   <a href="https://space.bilibili.com/302402751">Bili</a> •
   <a href="https://t.me/ayin86cn">Telgram</a>
@@ -67,7 +67,7 @@
 
 
 
-**更多demo，請查閱 [數字魔方演示站](http://124.222.103.91/)** 
+**更多demo，請查閱 [數字魔方演示站](https://ayin86.com/)** 
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
@@ -155,7 +155,7 @@
 1.  `cnpm i` 安裝依賴，建議使用cnpm
 2.  `npm run serve` 啟動項目即可預覽
 
-開發包介紹和使用方式請查閱 [文檔](http://124.222.103.91:8080/)
+開發包介紹和使用方式請查閱 [文檔](https://doc.ayin86.com/)
 
 -----
 

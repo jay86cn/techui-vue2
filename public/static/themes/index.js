@@ -2,7 +2,7 @@ import {AyinColor,$c} from "ayin-color"
 import blue from "./config/blue"
 import green from "./config/green"
 import dark from "./config/dark"
-import temp from "./config/temp"
+// import temp from "./config/temp"
 // Theme function developed based on ayincolor
 export const themes = function (Vue) {
   Vue.use(AyinColor)
@@ -15,7 +15,7 @@ export const themes = function (Vue) {
       // {title:"青色",label:"cyan",color:$c.cyl7,},
       // {title:"红色",label:"Red",color:$c.rel7,}
     ],
-    data:{blue,green,dark,temp}
+    data:{blue,green,dark}
   }
   store("theme",theme)
 };

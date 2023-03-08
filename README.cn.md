@@ -6,8 +6,8 @@
 <div align="center">Digitcube数字魔方是一款简单易用的可视化大屏前端框架，基于vue2开发</div>
 
 <p align="center">
-  <a href="http://124.222.103.91:8080/">文档</a> •
-  <a href="http://124.222.103.91/">演示站</a> •
+  <a href="https://doc.ayin86.com/">文档</a> •
+  <a href="https://ayin86.com/">演示站</a> •
   <a href="https://www.npmjs.com/package/digitcube-core">核心库</a> •
   <a href="https://space.bilibili.com/302402751">Bili</a> •
   <a href="https://t.me/ayin86cn">Telgram</a>
@@ -66,7 +66,7 @@
 
 
 
-**更多demo，请查阅 [数字魔方演示站](http://124.222.103.91/)** 
+**更多demo，请查阅 [数字魔方演示站](https://ayin86.com/)** 
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
@@ -154,7 +154,7 @@
 1.  `cnpm i` 安装依赖，建议使用cnpm
 2.  `npm run serve` 启动项目即可预览
 
-开发包介绍和使用方式请查阅 [文档](http://124.222.103.91:8080/)
+开发包介绍和使用方式请查阅 [文档](https://doc.ayin86.com/)
 
 -----
 
@@ -166,7 +166,7 @@
 
 添加微信的验证信息请标明 ***\*****公司+职位*****\***，没有验证信息的情况下申请会被忽略。
 
-关于许可证的说明请查阅 [许可证说明](http://124.222.103.91:8080/license/license#%E4%BB%8B%E7%BB%8D)
+关于许可证的说明请查阅 [许可证说明](https://doc.ayin86.com/license/license#%E4%BB%8B%E7%BB%8D)
 
 
 

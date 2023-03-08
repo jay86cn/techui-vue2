@@ -8,8 +8,8 @@
 <div align="center">Digitcube is a simple and easy-to-use visual large-screen front-end framework, developed based on vue2</div>
 
 <p align="center">
-   <a href="http://124.222.103.91:8080/">Documentation</a> •
-   <a href="http://124.222.103.91/">Demo Site</a> •
+   <a href="https://doc.ayin86.com/">Documentation</a> •
+   <a href="https://ayin86.com/">Demo Site</a> •
    <a href="https://www.npmjs.com/package/digitcube-core">Core library</a> •
    <a href="https://www.youtube.com/watch?v=3A8ECsl5Q2g&t=6s&ab_channel=aYinCN">Youtube Preview</a> •
    <a href="https://t.me/ayin86cn">Telgram</a>
@@ -70,7 +70,7 @@ The files in this development kit are development source codes, which can be use
 
 
 
-**For the following data screens and more demos, please check out [Digital Cube Demo Site](http://124.222.103.91/)** 
+**For the following data screens and more demos, please check out [Digital Cube Demo Site](https://ayin86.com/)** 
 
 <img src="./demo/screenB.png" style="border-radius:10px" width="800" />
 
@@ -158,7 +158,7 @@ The time frame is uncertain, after all the author is developing it in his spare 
 1. `npm i` installation dependencies
 2. `npm run serve` to start the project to preview
 
-Please refer to [documentation](http://124.222.103.91:8080/) for development package description and usage
+Please refer to [documentation](https://doc.ayin86.com/) for development package description and usage
 
 -----
 
