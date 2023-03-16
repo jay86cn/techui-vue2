@@ -1,7 +1,7 @@
 <template>
   <div class="change-view">
     <div class="tabs-btn" @click="itemClick(item)" v-for="(item,index) in view.data">
-      <techButtonB2 :class="item.label==view.current?'active':'deactive'">{{item.title}}</techButtonB2>
+      <techButtonB1 :config={backgroundOpacity:1,decorationLength:5} :class="item.label==view.current?'active':'deactive'">{{item.title}}</techButtonB1>
     </div>
   </div>
 </template>
@@ -34,7 +34,7 @@ export default {
 .screenMobileA-map{
   .change-view{position: absolute; z-index: 10; cursor: pointer;  .fullbox(20px); top:auto; display: grid; grid-template-columns: repeat(3,1fr); grid-template-rows:repeat(1,1fr); grid-gap: 20px;
     .tabs-btn{display:block; position: relative; text-align: center; 
-      .techButtonB2{
+      .techButtonB1{padding:5px 10px; display:block;
         .text{.ff("cn1"); }
       }
     }

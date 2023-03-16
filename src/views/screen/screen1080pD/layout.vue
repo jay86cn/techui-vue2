@@ -17,7 +17,7 @@
         </board3D>
       </div>
       
-      <sysTitleA1></sysTitleA1>
+      <sysTitleA2 :config="sysTitleConfig"></sysTitleA2>
       <!-- <sysTitleFree :title="'工程项目管理数据分析系统'"></sysTitleFree> -->
     </div>
 </template>
@@ -42,6 +42,9 @@ export default {
   },
   data() {
     return {
+      sysTitleConfig:{
+        subType:"C"
+      },
       blockTitleConfig:{width:180,},
       tabActive:0,
       tabs:[

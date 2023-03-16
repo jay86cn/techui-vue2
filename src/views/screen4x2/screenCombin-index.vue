@@ -3,7 +3,7 @@
     <template v-if="pcMode">
       <screenDragTool :state="state"></screenDragTool>
       <screenAdaptive :width="7680" :height="2160" :adaptiveType="'proportional'" :chartCount="chartCount">
-        <sysTitleA1 :class="`${state.hover?'hide':'show'}`" ></sysTitleA1>
+        <sysTitleA2 :config="sysTitleConfig" :class="`${state.hover?'hide':'show'}`" ></sysTitleA2>
         <div class="screen-wrapper" :style="svgBG1">
           <div class="screen-item" v-for="item in state.screen">
             <div :class="`screen-name ${state.hover?'show':'hide'}`"><i>{{item.name}}</i></div>
@@ -36,6 +36,9 @@ export default {
   },
   data() {
     return {
+      sysTitleConfig:{
+        subType:"B"
+      },
       pcMode:true,
       chartCount:23,
       boxStyle:{

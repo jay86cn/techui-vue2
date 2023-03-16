@@ -61,7 +61,7 @@ export default {
   computed: {
     publicUrl(){
       if(process.env.NODE_ENV=="development"){
-        return "./maps/"
+        return "http://127.0.0.1/maps/"
       }else if(process.env.NODE_ENV=="production"){
         return "./maps/"
       }
@@ -106,25 +106,28 @@ export default {
           emphasis:{ label: { show: false } },
           label: {//ayinMark
             //formatter: '\n{b}',
-            formatter: p => {
-              switch (p.data.name) { 
-                case '内蒙古自治区': p.data.name = "内蒙古" 
-                break; 
-                case '西藏自治区': p.data.name = "西藏" 
-                break; 
-                case '新疆维吾尔自治区': p.data.name = "新疆" 
-                break; 
-                case '宁夏回族自治区': p.data.name = "宁夏" 
-                break; 
-                case '广西壮族自治区': p.data.name = "广西" 
-                break; 
-                case '香港特别行政区': p.data.name = "香港" 
-                break; 
-                case '澳门特别行政区': p.data.name = "澳门" 
-                break; 
-                default: break; 
-              }
-              return "\n"+p.data.name
+            // formatter: p => {
+            //   switch (p.data.name) { 
+            //     case '内蒙古自治区': p.data.name = "内蒙古" 
+            //     break; 
+            //     case '西藏自治区': p.data.name = "西藏" 
+            //     break; 
+            //     case '新疆维吾尔自治区': p.data.name = "新疆" 
+            //     break; 
+            //     case '宁夏回族自治区': p.data.name = "宁夏" 
+            //     break; 
+            //     case '广西壮族自治区': p.data.name = "广西" 
+            //     break; 
+            //     case '香港特别行政区': p.data.name = "香港" 
+            //     break; 
+            //     case '澳门特别行政区': p.data.name = "澳门" 
+            //     break; 
+            //     default: break; 
+            //   }
+            //   return "\n"+p.data.name
+            // },
+            formatter:p=>{
+              return p.data?.name?.replace(/省|壮族自治区|回族自治区|维吾尔自治区|自治区|市|县|自治县|特别行政区|区/, '')
             },
             position: 'center',
             align:"center",
@@ -230,25 +233,28 @@ export default {
             show: true,
             color:getColor("actFC"),
             fontSize: 12,
-            formatter: p => {
-              switch (p.name) { 
-                case '内蒙古自治区': p.name = "内蒙古" 
-                break; 
-                case '西藏自治区': p.name = "西藏" 
-                break; 
-                case '新疆维吾尔自治区': p.name = "新疆" 
-                break; 
-                case '宁夏回族自治区': p.name = "宁夏" 
-                break; 
-                case '广西壮族自治区': p.name = "广西" 
-                break; 
-                case '香港特别行政区': p.name = "香港" 
-                break; 
-                case '澳门特别行政区': p.name = "澳门" 
-                break; 
-                default: break; 
-              }
-              return p.name; 
+            // formatter: p => {
+            //   switch (p.name) { 
+            //     case '内蒙古自治区': p.name = "内蒙古" 
+            //     break; 
+            //     case '西藏自治区': p.name = "西藏" 
+            //     break; 
+            //     case '新疆维吾尔自治区': p.name = "新疆" 
+            //     break; 
+            //     case '宁夏回族自治区': p.name = "宁夏" 
+            //     break; 
+            //     case '广西壮族自治区': p.name = "广西" 
+            //     break; 
+            //     case '香港特别行政区': p.name = "香港" 
+            //     break; 
+            //     case '澳门特别行政区': p.name = "澳门" 
+            //     break; 
+            //     default: break; 
+            //   }
+            //   return p.name; 
+            // },
+            formatter:p=>{
+              return p?.name?.replace(/省|壮族自治区|回族自治区|维吾尔自治区|自治区|市|县|自治县|特别行政区|区/, '')
             },
             //offset:[0,10],
           },
@@ -354,7 +360,7 @@ export default {
             code:regionCode,
             name:params.name,
           }
-          if(dept[dept.length-1].name!=params.name&&dept.length<2){
+          if(dept[dept.length-1].name!=params.name){//&&dept.length<2
             this.initChart(obj)
             dept.push({code:regionCode,name:params.name});
           }

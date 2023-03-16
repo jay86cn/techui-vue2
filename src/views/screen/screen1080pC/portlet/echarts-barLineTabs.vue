@@ -2,7 +2,7 @@
 <div class="chart-linebar-hasTabs-SA theme">
   <div class="card-header-tabs">
     <div class="button-wrap" @click="tabClick(index)" v-for="(item,index) in chartData" >
-      <techButtonB1  :class="index==current?'active':''">{{item.name}}</techButtonB1>
+      <techButtonB1 :config="{decoration:false}" :class="index==current?'active':''">{{item.name}}</techButtonB1>
     </div>
   </div>
   <echartsInit :chartOption="chartOption"></echartsInit>

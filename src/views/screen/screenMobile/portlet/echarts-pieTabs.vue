@@ -3,7 +3,7 @@
   <div class="unit">单位:亿吨</div>
   <div class="card-header-tabs">
     <div class="button-wrap" @click="tabClick(index)" v-for="(item,index) in chartData" >
-      <techButtonB1  :class="index==current?'active':''">{{item.name}}</techButtonB1>
+      <techButtonB1 :config="{decoration:false}" :class="index==current?'active':''">{{item.name}}</techButtonB1>
     </div>
   </div>
   <div class="total-digital">

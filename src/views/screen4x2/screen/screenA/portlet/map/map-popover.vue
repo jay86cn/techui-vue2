@@ -1,5 +1,5 @@
 <template>
-   <div class="map-popover" :class="clickData.show?'show':'hide'">
+   <div class="mapPopover" :class="clickData.show?'show':'hide'">
       <div class="item" >
         <span class="label">地区:</span>
         <span class="desc">{{clickData.area}}</span>
@@ -69,7 +69,7 @@ export default {
 </script> 
 <style lang="less">
 .screen4X2A-map{
-  .map-popover{.bgc(var(--popup-bg));  .bxsAlt(var(--popup-glow)); .bd(var(--popup-bd));  .bdr(5px); .poa; pointer-events: none; left:calc(v-bind("posX")*1px); top:calc(v-bind("posY")*1px); z-index: 10; min-width:100px; padding:10px;
+  .mapPopover{.bgc(var(--popup-bg));  .bxsAlt(var(--popup-glow)); .bd(var(--popup-bd));  .bdr(5px); .poa; pointer-events: none; left:calc(v-bind("posX")*1px); top:calc(v-bind("posY")*1px); z-index: 10; min-width:100px; padding:10px;
     &.show{}
     &.hide{opacity: 0;}
     .item{font-size: 16px;

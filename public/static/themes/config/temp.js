@@ -10,7 +10,8 @@ const theme = {
     "bg_hov": "rgba(39,57,78,0.9)",
     "bg_act": "rgba(48,73,102,0.9)",
     "bg_dis": "rgba(30,41,55,0.4)",
-    "deco": "#2e6b6b"
+    "deco_A": "#2e6b6b",
+    "deco_B": "#2e6b6b",
   },
   "font": {
     "stronger": "#eaeff1",
@@ -32,7 +33,8 @@ const theme = {
     "glow": "#4c7eb3",
     "blockTi_deco": "#668c99",
     "sysTi_BG": "#1e2937",
-    "sysTi_deco": "#304966",
+    "sysTi_deco_A": "#304966",
+    "sysTi_deco_B": "#304966",
     "sysTi_FC_A": "#668c99",
     "sysTi_FC_B": "#2e6b6b",
     "svgBG_A": "#27394e",

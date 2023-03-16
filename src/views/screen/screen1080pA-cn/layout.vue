@@ -15,7 +15,7 @@
           </div>
         </board3D>
       </div>
-      <sysTitleA1></sysTitleA1>
+      <sysTitleA2 :config="sysTitleConfig"></sysTitleA2>
       <!-- <mapDrill v-if="chartInitCounter>=8"></mapDrill> -->
       <mapDrill></mapDrill>
       <layoutDialog :config="dialogConfig" v-if="dialogConfig.show"></layoutDialog>
@@ -48,6 +48,9 @@ export default {
   },
   data() {
     return {
+      sysTitleConfig:{
+        subType:"B"
+      },
       blockTitleConfig:{
         width:160,
       },

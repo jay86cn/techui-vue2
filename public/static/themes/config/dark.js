@@ -10,7 +10,8 @@ const theme = {//---------------------------------------------dark
     bg_act: fade('bld7',.9),
     bd_dis: fade('cbd7',.3),
     bg_dis: fade('bld7',.3),
-    deco:fade("cyr5",.6)
+    deco_A:fade("cbl7",.6),
+    deco_B:fade("cyl7",.6)
   },
   font: {
     stronger: $c.wh,
@@ -33,7 +34,8 @@ const theme = {//---------------------------------------------dark
     glow: $c.cyl5,
     blockTi_deco: $c.blr8,
     sysTi_BG: $c.hsll("bld8",.15),
-    sysTi_deco: $c.bld7,
+    sysTi_deco_A: $c.bld7,
+    sysTi_deco_B: $c.bld5,
     sysTi_FC_A: $c.wh,
     sysTi_FC_B: $c.bld6,
     
@@ -52,7 +54,7 @@ const theme = {//---------------------------------------------dark
   chart: {
     mapBG_A: $c.bld7,
     mapBG_B: $c.bld8,
-    mapBG_hov_A: $c.bld7,
+    mapBG_hov_A: $c.bld6,
     mapBG_hov_B: $c.bld7,
     mapBD_A: $c.bld6,
     mapBD_B: $c.bld7,

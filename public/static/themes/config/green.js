@@ -10,7 +10,9 @@ const theme = {//---------------------------------------------green
     bg_act: fade('cbl7',.9),
     bd_dis: fade('acd7',.5),
     bg_dis: fade('cbd7',.5),
-    deco:fade("cyl5",.6)
+    deco_A:fade("aql6",.6),
+    deco_B:fade("cyl5",.6)
+    
   },
   font: {
     stronger: $c.wh,
@@ -33,10 +35,10 @@ const theme = {//---------------------------------------------green
     glow: $c.cyl5,
     blockTi_deco: $c.acA15,
     sysTi_BG: $c.cyB18,
-    sysTi_deco: $c.acB15,
+    sysTi_deco_A: $c.acB16,
+    sysTi_deco_B: $c.acA13,
     sysTi_FC_A: $c.cyA08,
     sysTi_FC_B: $c.acA15,
-    
     svgBG_A: $c.cyD17,
     svgBG_B: $c.acD19,
     svgBG_C: $c.acF19,
