@@ -19,7 +19,7 @@
 
 **On March 16, 2023, the core file of the development kit was upgraded to 1.4, and there are some destructive updates, please download the development kit again.** 
 
-**Previous version development kits can be used normally if the core library and language packs are kept in their original versions. If the previous development package is upgraded to the latest 1.4 core, it will not work properly. **
+**Previous version development kits can be used normally if the core library and language packs are kept in their original versions. If the previous development package is upgraded to the latest 1.4 core, it will not work properly.**
 
 **<span style="color:red">The Temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. </span>**
 
