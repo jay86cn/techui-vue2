@@ -17,6 +17,10 @@
 
 ## 🛡️ Declaration
 
+**On March 16, 2023, the core file of the development kit was upgraded to 1.4, and there are some destructive updates, please download the development kit again.** 
+
+**Previous version development kits can be used normally if the core library and language packs are kept in their original versions. If the previous development package is upgraded to the latest 1.4 core, it will not work properly. **
+
 **<span style="color:red">The Temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy. </span>**
 
 The files in this development kit are development source codes, which can be used for commercial project development only by updating the license. For details, please contact the administrator.
@@ -125,11 +129,11 @@ The files in this development kit are development source codes, which can be use
 
 ## 📜 Update notes
 
-- **20230302 Development source code for mobile data screens, splicing screens, integrated into the development kit.**
+- **20230316 The core is upgraded to 1.4, and a system title component is added, as well as a lot of detailed modifications.**
 
-- **20230225 Documentation updated in English and Traditional Chinese languages**
-
-- **20230223 First release of the development kit to Gitee and Github, documentation released simultaneously**
+- **20230302 The development source code of mobile terminal data screen and splicing screen is integrated into the development kit.**
+- **20230225 Documentation update English and Traditional Chinese language**
+- **20230223 Release the development kit to Gitee and Github for the first time, and the documents are released simultaneously**
 
 
 
