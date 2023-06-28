@@ -1,6 +1,10 @@
 [简体中文](./README.cn.md) | 繁體中文 | [English](./README.md)
 
 <h1 align="center">
+<b>本開發包廢棄，即將發布名為techui-vue2的一個開發包，以及techui-vue3-lite的開發包，techui-vue3-lite為免費框架，敬請期待！</b>
+</h1>
+
+<h1 align="center">
 <b>數字魔方 開發包</b>
 </h1>
 <div align="center">Digitcube數字魔方是壹款簡單易用的可視化大屏前端框架，基於vue2開發</div>

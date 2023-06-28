@@ -3,6 +3,10 @@
 **This page was translated by Google**
 
 <h1 align="center">
+<b>This development kit is abandoned, and a development kit named techui-vue2 and techui-vue3-lite will be released soon. Techui-vue3-lite is a free framework, so stay tuned!</b>
+</h1>
+
+<h1 align="center">
 <b>DigitalCube Development Kit</b>
 </h1>
 <div align="center">Digitcube is a simple and easy-to-use visual large-screen front-end framework, developed based on vue2</div>
