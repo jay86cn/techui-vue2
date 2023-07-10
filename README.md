@@ -3,7 +3,15 @@
 **This page was translated by Google**
 
 <h1 align="center">
-<b>This development kit is abandoned, and a development kit named techui-vue2 and techui-vue3-lite will be released soon. Techui-vue3-lite is a free framework, so stay tuned!</b>
+<b>This development kit is obsolete, please check the newly released development kit techUI, among which techUI-lite is a free version, free to use without restriction. </b>
+
+Lite version
+Demo Click here https://lite.techui.net
+Docs Click here https://lite.techui.net/docs
+
+Premium version
+Demo Click here https://techui.net
+Docs Click here https://techui.net/docs
 </h1>
 
 <h1 align="center">
