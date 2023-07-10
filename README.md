@@ -2,7 +2,7 @@
 
 **This page was translated by Google**
 
-<h1 align="center">
+<h1>
 <b>This development kit is obsolete, please check the newly released development kit techUI, among which techUI-lite is a free version, free to use without restriction. </b>
 
 Lite version

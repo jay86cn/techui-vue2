@@ -1,6 +1,6 @@
 简体中文 | [繁體中文](./README.hk.md) | [English](./README.md)
 
-<h1 align="center">
+<h1>
 <b>本开发包废弃请查看新发布的开发包techUI，其中techUI-lite是一个免费版本，自由使用无限制。</b>
 
 Lite version
