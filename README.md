@@ -5,7 +5,7 @@
 <h1 align="center">
 <b>TechUI Development Kit</b>
 </h1>
-<div align="center">TechUI is a free and easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + vue2 development</div>
+<div align="center">TechUI is a easy to use Dynamic SVG Data Visualization Dashboard development tool, based on vite + vue2 development</div>
 
 <p align="center">
    <a href="https://lite.techui.net/docs">Documentation</a> •
