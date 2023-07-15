@@ -1,0 +1,30 @@
+export default {
+  nav:{
+    dashboardA:"大屏DemoA",
+    dashboardB:"大屏DemoB",
+    dashboardC:"大屏DemoC",
+    dashboardD:"大屏DemoD",
+    dashboardE:"大屏DemoE",
+    dashboardMobileA:"移動端大屏DemoA",
+    dashboard4x2Combin:"拼接屏4x2組合",
+    dashboard4x2Single:"拼接屏4x2單屏",
+    map:"地圖組件",
+    map3D:"3D地圖組件",
+    warehouse:"倉庫監控2.5D",
+    pumpStation:"泵站運行監控",
+    panel3D:"panel3D Demo",
+    decorComps:"科技裝飾",
+    chartPalette:"圖表配色工具",
+    conservancy: "水路設備監管",
+    memo: "Memo",
+    dataVDemo: "dataV Demo",
+    svgGeo: "SVG坐標系",
+  },
+  dragTool:{
+    board1:"数据屏A",
+    board2:"数据屏B",
+    board3:"数据屏C",
+    board4:"数据屏D",
+    board5:"数据屏E",
+  }
+}

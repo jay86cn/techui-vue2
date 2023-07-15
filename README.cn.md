@@ -1,94 +1,84 @@
 简体中文 | [繁體中文](./README.hk.md) | [English](./README.md)
 
-<h1>
-<b>本开发包废弃请查看新发布的开发包techUI，其中techUI-lite是一个免费版本，自由使用无限制。</b>
-
-Lite version
-
-Demo 点击这里查看 https://lite.techui.net
-
-Docs 点击这里查看 https://lite.techui.net/docs
-
-Premium version
-
-Demo 点击这里查看 https://techui.net
-
-Docs 点击这里查看 https://techui.net/docs
-</h1>
-
 <h1 align="center">
-<b>数字魔方 开发包</b>
+<b>TechUI 开发包1</b>
 </h1>
-<div align="center">Digitcube数字魔方是一款简单易用的可视化大屏前端框架，基于vue2开发</div>
+<div align="center">TechUI是一款简单易用的动态SVG可视化大屏开发框架，基于vite+vue2开发</div>
 
 <p align="center">
-  <a href="https://doc.ayin86.com/">文档</a> •
-  <a href="https://ayin86.com/">演示站</a> •
-  <a href="https://www.npmjs.com/package/digitcube-core">核心库</a> •
-  <a href="https://space.bilibili.com/302402751">Bili</a> •
+  <a href="https://techui.net/docs">文档</a> •
+  <a href="https://techui.net/">演示站</a> •
+  <a href="https://www.npmjs.com/package/techui-vue2">核心库</a> •
+  <a href="https://lite.techui.net/docs">免费版</a> •
   <a href="https://t.me/ayin86cn">Telgram</a>
 </p>
 
 ## 🛡️声明
 
-**2023年3月16日，开发包的核心文件升级至了1.4的，有部分破坏性更新，请重新下载开发包。**
-
-**此前的版本开发包如果核心库和语言包还保留原始版本，可正常使用。如果此前的开发包升级至最新的1.4核心，则无法正常工作。**
-
 <span style="color:red">**本开发包内置的临时许可证，仅用于测试、体验、学习。无法调试，无法打包部署。** </span>
 
-本开发包内的文件为开发源码，仅需更新许可证即可用于商业项目开发，详情请联系管理员。
+**另外提供了一款免费的[techUI-lite](https://lite.techui.net/docs/)框架,欢迎下载使用**
 
+本开发包内的文件为源码，仅需更新许可证即可用于商业项目开发，详情请联系管理员。
+- 高级版的授权用户，联系管理员更新许可证后直接进入开发阶段。
+- 请在本文档底部，查询我的联系方式。
 
+-----
 
-- 免费用户，可以通过本开发包学习数据可视化的开发思路、设计、主题、多语言、样式、布局、以及echarts的使用等
-- 授权用户，联系管理员更新许可证后直接进入开发阶段。
+目前开发包内置了4个版本
+- package-i18n 多语言开发包，内置了3种语言，简中、繁中、English
+- package-english 单语言开发包-English
+- package-simple-chinese 单语言开发包-简中
+- package-traditional-chinese 单语言开发包-繁中
 
+请根据具体需求下载，i18n版本因为调用language定义，所以稍显复杂，尽量选择单语言开发包进行测试和开发。
 
+-----
 
+**本开发包内置数个Dashboard，如下图。**
 
-**本开发包内置5个数据屏，如下图。**
+**DashboardA**
 
-**数据屏A**-支持地图下钻数据联动
+<img src="./demoImage/dashboardA-CN.png" style="border-radius:10px" width="800" />
 
-<img src="./demo/screenA.png" style="border-radius:10px" width="800" />
+**DashboardB**
 
-**数据屏C**
+<img src="./demoImage/dashboardB-CN.png" style="border-radius:10px" width="800" />
 
-<img src="./demo/screenC.png" style="border-radius:10px" width="800" />
+**DashboardC**
 
-**数据屏D**
+<img src="./demoImage/dashboardC-CN.png" style="border-radius:10px" width="800" />
 
-<img src="./demo/screenD.png" style="border-radius:10px" width="800" />
+**DashboardD**
 
-**数据屏A-移动端** 
+<img src="./demoImage/dashboardD-CN.png" style="border-radius:10px" width="800" />
 
-<img src="./demo/screenA-mobile.png" style="border-radius:10px" width="300" />
+**DashboardE**
+
+<img src="./demoImage/dashboardE-CN.png" style="border-radius:10px" width="800" />
+
+**DashboardA-移动端** 
+
+<img src="./demoImage/mobile-CN.png" style="border-radius:10px" width="300" />
 
 **企业拼接屏4x2**
 
-<img src="./demo/splicingScreens.png" style="border-radius:10px" width="800" />
-
-**本开发包内置3个功能界面，分别是3D面板、科技边框、图表配色工具**
+<img src="./demoImage/dashboard4x2-CN.png" style="border-radius:10px" width="800" />
 
 **3D面板**
 
-<img src="./demo/board3D.png" style="border-radius:10px" width="800" />
-
-**科技边框**
-
-<img src="./demo/techBorder.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/panel3D-CN.png" style="border-radius:10px" width="800" />
 
 **图表配色工具**
 
-<img src="./demo/chartPalette.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/chartPalette-CN.png" style="border-radius:10px" width="800" />
 
 
+**更多demo，请查阅 [techUI Demo](https://techui.net/)** 
 
+<img src="./demoImage/warehouse-CN.png" style="border-radius:10px" width="800" />
 
-**更多demo，请查阅 [数字魔方演示站](https://ayin86.com/)** 
-
-<img src="./demo/screenB.png" style="border-radius:10px" width="800" />
+<img src="./demoImage/pumpStation-CN.png" style="border-radius:10px" width="800" />
 
 -----
 
@@ -131,7 +121,7 @@ Docs 点击这里查看 https://techui.net/docs
 
 - **🚀稳步迭代急速响应**
 
-  本框架历经两个大版本，无数小版本的迭代，bug修复及时，功能拓展稳步进行中。对于付费用户可以做到及时响应。
+  本框架历经三个大版本，无数小版本的迭代，bug修复及时，功能拓展稳步进行中。对于付费用户可以做到及时响应。
 
 
 -----
@@ -140,27 +130,13 @@ Docs 点击这里查看 https://techui.net/docs
 
 ## 📜更新说明
 
+- **20230707 发布框架 techui-vue2、techui-vue3-lite、演示demo、文档、开发包，其中vue2开发包含多语言和单语言版本。**
+- **20230701 核心升级至3.1, 从3.0开始采用了wasm模块来做许可证逻辑、加解密逻辑、SVG动态节点计算**
+- **202304-202306 核心版本2.0-2.2版本，大范围修改组件名称，调用方式，内置方法，使整个框架更加的规范易用。**
 - **20230316 核心升级至1.4 新增了系统标题组件，以及大量细节修改。**
-- **20230302 移动端数据屏，拼接屏的开发源码，集成到开发包中。**
+- **20230302 移动端Dashboard，拼接屏的开发源码，集成到开发包中。**
 - **20230225 文档更新英文和繁体中文语言**
 - **20230223 首次发布开发包到Gitee和Github，文档同步发布**
-
-
-
-可能会发布一个免费版，不含主题、多语言这些功能，组件也会少一些。供免费商用，提供的组件列表如下（初定）:
-
-- 自适应组件（仅等比模式）
-- 图表组件
-- 科技面板（大概10-12个）
-- 科技标题
-- 块标题
-- loading
-- SVG背景
-
-这些组件，基本上能满足一个普通的商业项目的需求，至于其他功能，则仅在高级版里面提供。免费版可以自己添加任何三方组件或者自定义组件来实现其他功能。
-
-时间节点不确定，毕竟作者完全是业余时间来开发，大致可能在3-6个月后发布，敬请期待。
-
 
 
 -----
@@ -171,31 +147,58 @@ Docs 点击这里查看 https://techui.net/docs
 ## 📖安装教程
 
 1.  `cnpm i` 安装依赖，建议使用cnpm
-2.  `npm run serve` 启动项目即可预览
+2.  `npm run dev` 启动项目即可预览
 
-开发包介绍和使用方式请查阅 [文档](https://doc.ayin86.com/)
+开发包介绍和使用方式请查阅 [文档](https://techui.net/docs)
+
 
 -----
 
-## 🌟许可证授权
 
-微信：ayin86cn（寻求合作中）
+## 🛠️兼容性和Nodejs版本
 
-如果您需要购买授权或者合作洽谈，请添加客服微信详聊。(其实没有客服，作者伪装的)
+1. nodejs 16-18 支持良好其他版本未测试
+2. 除IE外的主流浏览器均支持良好，包括移动端浏览器。
 
-添加微信的验证信息请标明 ***\*****公司+职位*****\***，没有验证信息的情况下申请会被忽略。
+-----
 
-关于许可证的说明请查阅 [许可证说明](https://doc.ayin86.com/license/license#%E4%BB%8B%E7%BB%8D)
+## 🌟合作洽谈
 
-
-
-<img src="./demo/QRcode.png" width="300" />
-
-
-
-海外客户，请通过邮件联系  ayin86cn@gmail.com
+Lite版本框架免费使用，不提供任何技术支持，遇到问题请在github提交issues，或者添加以下QQ群进行技术交流。
 
 数据可视化TechGroupQQ群:119059920 技术交流
 
-也可以添加数字魔方的Telgram讨论群组 [DigitcubeGroup](https://t.me/+RJZ4cmDrcCFmNWNl)
+或者添加 [TechUI discord](https://discord.gg/JXgn5Gq2)讨论群组。
+
+或者添加 [TechUI Telgram](https://t.me/+RJZ4cmDrcCFmNWNl)讨论群组。
+
+对于付费服务，如定制开发、技术支持，或购买高级许可证，请通过以下联系方式与我联系
+
+微信：ayin86cn
+
+<img src="./demoImage/QRcode.png" width="300" />
+
+海外客户，请通过邮件联系  ayin86cn@gmail.com
+
+也可以添加TechUI的Telgram讨论群组 [TechUI](https://t.me/+RJZ4cmDrcCFmNWNl)
+
+-----
+## ❤️我能提供的服务
+
+作者本人，由UI设计师转为前端开发，从业15年之久，在一个项目或产品的开发中，可以承担的职责有：产品经理、UI设计师、前端开发。
+
+所以，可以说是初创公司最佳且划算的合作伙伴，欢迎洽谈合作。
+
+
+#### 可以具体做的工作
+
+- UI设计图
+- 产品、项目的规划和设计
+- 可视化项目开发
+- GEO项目开发（echarts+geojson+在线地图）
+- Rust开发WASM模块
+- 任意类型的业务系统
+- 移动端开发
+- 文档编撰
+- 前端安全，加解密
 

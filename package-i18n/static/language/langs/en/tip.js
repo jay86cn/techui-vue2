@@ -1,0 +1,30 @@
+export default {
+  title: {
+    common: "Prompt",
+    performance: "performance hint",
+    svg:"SVG Border Description",
+    mobileAccess: "Please use mobile access",
+    pcAccess: "Please use a PC to access this page",
+    panel3DOff: "3D panel global switch",
+  },
+  desc: {
+    dashboardA1: "If your computer is running a little stuck, please turn off transition animation, 3D panel, background blur and other effects in the control panel. The control panel switch is located in the upper right corner of the window. If it is not the first visit, you can turn off all prompts in the control panel option.",
+    dashboardA2: "The navigation menu is located at the pulse button at the bottom center of the page. Besides this data dashboard, other data dashboards are not internationalized.",
+    dashboardB: "This data dashboard has a minimalist design without any technological decoration elements, and also follows the overall design of the framework, and can directly call the framework's multilingual and theme functions. Its 3D map is developed based on Echarts-gl.",
+    dashboardC: "For data dashboards with rich and complex content, it is usually not recommended to place so much content in one data dashboard.",
+    dashboardMobile: "This page is specially designed for mobile devices. Please use a mobile phone to access it, or reduce the width of the browser to the proportion of the mobile phone.",
+    dashboardCombin1: "The data combination dashboard is specially built for enterprise-level large-dashboard display, and requires a higher-performance environment to run. Because there are too many chart data displayed at the same time, it is difficult to face some weak-performance personal computer environments. Pause, please change the computer and try again. You can also try to turn off background blur, animation effects, etc. in the control panel to improve page efficiency. The control panel switch is located in the upper right corner of the window",
+    dashboardCombin2: "You can change the content of the main dashboard in the middle of the 4x2 splicing dashboard by dragging the panel in the lower right corner. You can customize a large dashboard with any resolution according to the situation.",
+    dashboardSingle: "This function is the single-dashboard mode of the 4x2 combination dashboard. For the content developed for the large-dashboard enterprise, it can be displayed on a common PC in a split single-dashboard manner to improve user experience! You can navigate between each data dashboard through the bottom navigation jump.",
+    warehouse: "This page uses pictures to simulate 3D effects to achieve 2.5D scene display. It can be used for computer room, park, floor, mine layer and other situation display and equipment display. It is a low-cost solution to replace 3D modeling! Click on the upper right corner You can see the analog alarm prompt effect of the warehouse (you can add a sound reminder)",
+    map: "The map function is rendered using Geojson based on Echarts, and can display any content such as points, lines, surfaces, icons, values, etc. on the map. It can also be superimposed on online maps, etc., which is one of the low-cost alternatives to commercial gis maps.",
+    map3D: "3D maps are rendered using Geojson based on Echarts and EchartsGL. Its essence is not much different from flat maps rendered based on Echarts. An independent graphics card is required to access this page, otherwise the fluency will be affected.",
+    pumpStation: "This page is a simulated pump station equipment status monitoring application, which can update and view the operation status and parameters of each pump station in real time, and can customize any enterprise-level equipment monitoring application with similar functions.",
+    panel3D1: "This function is a self-developed 3D deformation panel, which can convert any content panel into 3D and provide a variety of interactive methods. At present, this Demo system is still under development, and a data dashboard for displaying 3D panels will be developed later. Stay tuned.",
+    panel3D2: "If the 3D view mode is off, please turn on the 3D panel function in the control panel.",
+    panel3D3: "Because there is no cursor interaction function on the mobile terminal, the 3D panel cannot be interacted and tracked on the mobile terminal. Please use PC to access.",
+    decorComps1: "This page loads a large number of SVG components at the same time, and some SVG components have animation, blurred background, deformation and other effects, which may cause problems such as stuttering. This is a normal phenomenon. If you need a better access effect, please turn off the background animation , or change to a computer with higher performance and try again.",
+    decorComps2: "All SVG tech-style borders support dynamic adaptation, dynamic skinning, and dynamic switching of configuration items. Configure each border's appearance, state, performance, animation, special effects, etc. through configuration items.",
+    chartPalette: "Chart color matching tool, use a visual way to color the chart, and the chart type can be expanded",
+  }
+}

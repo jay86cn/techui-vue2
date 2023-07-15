@@ -1,0 +1,78 @@
+<template>
+  <div class="map-counter-wrap">
+    <div class="counter-item" v-for="(item,index) in counterList">
+      <i :class="'icon '+item.icon"></i>
+      <div class="content">
+        <span class="num">{{item.num}}
+          <span class="plus" v-if="item.plus">+{{item.plus}}</span>
+        </span>
+      </div>
+      <div class="name">{{item.name}} </div>
+      <!-- <span class="unit">({{item.unit}})</span> -->
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  name: "blockCenter",
+  mixins: [],
+  //props: ['boxStyle'],
+  data() {
+    return {
+      counterList:[
+        {name:"Total Groundwater",icon:"i carbon:carbon-for-ibm-product",num:394,unit:"Billion tons",plus:1},
+        {name:"Water Intake",icon:"i carbon:carbon-ui-builder",num:42558,unit:"Billion tons"},
+        {name:"Water Users",icon:"i carbon:carbon-for-ibm-dotcom",num:50262,unit:"household",plus:4},
+        {name:"Intake Location",icon:"i carbon:carbon",num:50262,unit:"unit",plus:4},
+      ]
+    };
+  },
+  computed: {},
+  methods: {
+  },
+  mounted() {
+    
+  }
+};
+</script>
+<style lang="less">
+.counter-item-re(){.bd(var(--auxilary-danger_BD));.bgc(var(--auxilary-danger_BG));
+  .icon{.bgc(var(--auxilary-danger_BG_light));.bdri(var(--auxilary-danger_BD_light)); .fc(var(--auxilary-danger_FC_light));}
+  .name{.fc(var(--auxilary-danger_FC));
+    .unit{.fc(var(--auxilary-danger_FC));}
+  }
+  .content{
+    .num,
+    .num .plus{.fc(var(--auxilary-danger_FC));}
+  }
+}
+.counter-item-ye(){.bd(var(--auxilary-warning_BD));.bgc(var(--auxilary-warning_BG));
+  .icon{.bgc(var(--auxilary-warning_BG_light));.bdri(var(--auxilary-warning_BD_light)); .fc(var(--auxilary-warning_FC_light));}
+  .name{.fc(var(--auxilary-warning_FC));
+    .unit{.fc(var(--auxilary-warning_FC));}
+  }
+  .content{
+    .num,
+    .num .plus{.fc(var(--auxilary-warning_FC));}
+  }
+}
+.dashboard1080pC-map{
+  .map-counter-wrap{.poa; left:50%; .fixc("x"); top:100px; z-index: 10;
+    .counter-item{.bd(var(--button-bd_hov)); .bgc(var(--popup-bg)); width: 180px; display:inline-block; .bgc(fade(@bll9,80%));  height: 60px; margin:0 20px 0 0; padding:10px 0 0 60px; position: relative;
+      .icon{.fc(var(--font-normal)); .bgc(var(--button-bd_hov)); font-size: 28px;z-index: 1; .poa;left:0; top:0;  width: 50px; height: 58px; line-height: 60px; text-align: center;}
+      .name{.fc(var(--font-normal)); font-size: 12px; white-space: nowrap; .ff("cn1"); z-index: 1; .por;
+        .unit{font-size: 12px;}
+      }
+      .content{.fc(var(--font-normal));
+        .num{font-size: 18px; .por; font-weight: bold;.ff("en5"); .fc(var(--font-normal)); 
+          .plus{.poa; left:101%; top:-5px; font-size: 12px; .fc(var(--font-normal)); font-weight: normal; .ff("arial");}
+        }
+      }
+      &:nth-child(1){.counter-item-re;}
+      &:nth-child(2){.counter-item-ye;}
+      &:nth-child(3){}
+    }
+  }
+}
+
+</style>

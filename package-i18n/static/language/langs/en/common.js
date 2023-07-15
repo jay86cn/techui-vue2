@@ -1,0 +1,30 @@
+export default {
+  nav:{
+    dashboardA: "DashboardA",
+    dashboardB: "DashboardB",
+    dashboardC: "DashboardC",
+    dashboardD: "DashboardD",
+    dashboardE: "DashboardE",
+    dashboardMobileA: "Mobile DashboardA",
+    dashboard4x2Combin: "Splicing Dashboard4x2",
+    dashboard4x2Single: "Splicing DashboardSingle",
+    map: "Map",
+    map3D: "3D Map",
+    warehouse: "Warehouse Monitoring",
+    pumpStation: "Pump Station",
+    panel3D: "panel3D Demo",
+    decorComps: "Decoration Demo",
+    chartPalette: "Chart Color",
+    conservancy: "Conservancy",
+    memo: "Memo",
+    dataVDemo: "dataV Demo",
+    svgGeo: "SVG Map",
+  },
+  dragTool: {
+    board1: "boardA",
+    board2: "boardB",
+    board3: "boardC",
+    board4: "boardD",
+    board5: "boardE",
+  }
+}

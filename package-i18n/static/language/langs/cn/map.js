@@ -1,0 +1,24 @@
+export default {
+  tab:{
+    item1:"时间线数据",
+    item2:"数据循环",
+    item3:"点击数据",
+    item4:"航班静态",
+    item5:"航班动画",
+    item6:"全球Pin",
+    item7:"全球MultData",
+    item8:"全球中国",
+  },
+  popover:{
+    area:"地区",
+    data:"数据",
+    info:"信息",
+    plan:"计划完成",
+    fineshed:"已完成",
+    files:"文件数量",
+    dangerNum:"隐患数量",
+    warning:"区域数据触发异常告警",
+    danger:"区域数据触发危急告警",
+  },
+  navRoot:"辽宁",
+}

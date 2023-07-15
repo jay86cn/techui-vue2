@@ -1,0 +1,13 @@
+/*A类字体 标题*/
+@font-face { font-family: "cn0"; src:url(../webfonts/C-YS-BTTH.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; }/*优设标题黑*/
+
+/*Eng常规*/
+@font-face { font-family: "en0"; src:url(../webfonts/E-Vibrocentric.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en1"; src:url(../webfonts/E-GeosansLight.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en2"; src:url(../webfonts/E-digifacewide.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en3"; src:url(../webfonts/E-SlicedJuice.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en4"; src:url(../webfonts/E-Potra.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en5"; src:url(../webfonts/E-V5ProphitCell.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en6"; src:url(../webfonts/E-PROGBOT.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+@font-face { font-family: "en7"; src:url(../webfonts/E-BMPinholeA13.woff2) format("woff2"); font-style: normal; font-weight: 300; font-display: block; } 
+
