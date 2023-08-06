@@ -37,6 +37,10 @@
 
 **本开发包内置数个Dashboard，如下图。**
 
+**演示GIF动画**
+
+<img src="./demoImage/techui-vue2.gif" style="border-radius:10px" width="800" />
+
 **DashboardA**
 
 <img src="./demoImage/dashboardA-CN.png" style="border-radius:10px" width="800" />

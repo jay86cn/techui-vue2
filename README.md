@@ -42,6 +42,10 @@ Please download according to specific needs. The i18n version is slightly compli
 
 **This development kit has several built-in Dashboards, as shown in the figure below.**
 
+**Demo Gif animations**
+
+<img src="./demoImage/techui-vue2.gif" style="border-radius:10px" width="800" />
+
 **DashboardA**
 
 <img src="./demoImage/dashboardA-EN.png" style="border-radius:10px" width="800" />
