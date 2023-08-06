@@ -18,6 +18,8 @@
 ## 💖Need A Remote Job
 **I am planning to quit my job and if anyone can offer a long term remote job, please contact me. All my skills and frameworks are free to use if a partnership is reached.**
 
+-----
+
 ## 🛡️ Declaration
 
 <span style="color:red">**The temporary license built into this development kit is only used for testing, experience and learning. Unable to debug, unable to package and deploy.** </span>
