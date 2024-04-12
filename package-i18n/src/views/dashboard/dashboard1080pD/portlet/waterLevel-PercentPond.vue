@@ -130,9 +130,9 @@ export default {
 .pond-wrap{.poa; .fullbox(30px); top:60px; .grid(5,2,20px); 
   .item{
     //<row-start> / <column-start> / <row-end> / <column-end>;
-     &:nth-child(1){grid-area: 1 / 1 / 3 / 3;}
-     &:nth-child(2){grid-area: 1 / 3 / 2 / 6;}
-     &:nth-child(3){grid-area: 2 / 3 / 3 / 6;}
+    &:nth-child(1){grid-area: 1 / 1 / 3 / 3;}
+    &:nth-child(2){grid-area: 1 / 3 / 2 / 6;}
+    &:nth-child(3){grid-area: 2 / 3 / 3 / 6;}
   }
 }
 </style>

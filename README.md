@@ -196,9 +196,9 @@ You can also contact me via email ayin86cn@gmail.com I will check my email every
 
 ## ❤️ What I can offer
 
-The author himself, a UI designer turned front-end developer, has been in the field for 15 years and can take on the responsibilities of product manager, UI designer and front-end developer in a project or product development.
+The author is a UI designer turned front-end developer, practicing for more than 15 years, in a project or product development, the responsibilities can be: product manager, UI designer, front-end developer.
 
-Therefore, it can be said to be the best and cost-effective partner for a start-up company, welcome to discuss cooperation. I hope to find a stable and long-term remote job. Preferably a remote job in Canada, hope to have the opportunity to go to this country.
+Therefore, it can be said to be the best and cost-effective partner for startups, welcome to discuss cooperation.
 
 #### Specific tasks that can be done
 
