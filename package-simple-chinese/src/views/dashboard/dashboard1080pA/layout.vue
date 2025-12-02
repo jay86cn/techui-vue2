@@ -26,8 +26,8 @@ export default {
   mixins: [],
   components: {
     // mapDrill:() => import('../portlet/mapLN.vue'),
-    // mapDrill:() => import('../portlet/mapDrill.vue'),
-    mapDrill:() => import('./portlet/map/map-liaoning.vue'),
+    // mapDrill:() => import('./portlet/map/map-liaoning.vue'),
+    mapDrill:() => import('./portlet/map/mapDrill.vue'),
     echartsBarHoriz:() => import('./portlet/echarts-BarHoriz.vue'),
     echartsLineA:() => import('./portlet/echarts-lineA.vue'),
     counterGrid:() => import('./portlet/counter-grid.vue'),

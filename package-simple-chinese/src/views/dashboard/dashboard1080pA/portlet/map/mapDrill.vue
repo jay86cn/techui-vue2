@@ -46,7 +46,7 @@ export default {
         sum:0,
         
         nav:{
-          data:[{code:210000,name:"辽宁"}, ], //{code:100000,name:"全国"},  {code:140000,name:"山西省"},
+          data:[ {code:210000,name:"辽宁"}, ], //{code:100000,name:"全国"}, {code:210000,name:"辽宁"}, {code:140000,name:"山西省"},
           position:{
             top:"18%",
             left:"27.5%"
